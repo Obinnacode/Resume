@@ -1,0 +1,283 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.resume {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 3fr;
+    width: 600px;
+    height: 90vh;
+}
+
+.first-half {
+    display: flex;
+    flex-direction: column;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    background-color: white;
+}
+
+.second-half {
+    display: flex;
+    flex-direction: column;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    background-color: white;
+
+
+
+}
+
+.square {
+    height: 130px;
+    width: 130px;
+    background-color: #27384C;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.square>div {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.profile-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #27384C;
+    overflow: hidden;
+
+}
+
+.img {
+    object-fit: cover;
+    min-width: 150px;
+}
+
+.about-me>p {
+    margin: 0;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.about-me>h2 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.svg span {
+    font-size: 0.7rem;
+
+}
+
+.svg {
+    position: relative;
+    left: 30px;
+    top: 240px;
+
+}
+
+.svg>div {
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+.expertise {
+    width: 80%;
+    background-color: #27384C;
+    color: white;
+    text-align: center;
+    font-size: 0.5rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.expertise>h2 {
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+ul {
+    font-size: 0.7rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    font-weight: 700;
+}
+
+.semicircle1 {
+    height: 100px;
+    width: 100px;
+    flex-shrink: 0;
+    position: relative;
+    top: 210px;
+    overflow: clip;
+
+}
+
+.semicircle1>div {
+    height: 100px;
+    width: 100px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #27384C;
+    position: relative;
+    right: 50px;
+}
+
+.semicircle2 {
+    height: 120px;
+    width: 120px;
+    flex-shrink: 0;
+    position: relative;
+    overflow: clip;
+    align-self: flex-end;
+}
+
+.semicircle2>div {
+    height: 120px;
+    width: 120px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #27384C;
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+}
+
+.resume-name {
+    width: 100px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #27384C;
+    font-size: 2.5rem;
+}
+
+.ob {
+    position: relative;
+    bottom: 130px;
+    right: 60px;
+}
+
+.on {
+    position: relative;
+    bottom: 150px;
+    right: 30px;
+}
+
+.title {
+    font-weight: 600;
+    color: #27384C;
+    position: relative;
+    bottom: 195px;
+    width: 170px;
+    display: block;
+    text-align: center;
+}
+
+.heading {
+    width: 280px;
+    background-color: #27384C;
+    color: white;
+    text-align: center;
+    font-size: 0.5rem;
+    margin-top: 10px;
+    text-transform: uppercase
+}
+
+.end {
+    align-self: center;
+    position: relative;
+    bottom: 160px;
+    height: 100%;
+}
+
+.end h2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.end>h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+
+}
+
+.end>p {
+    width: 280px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.semicircle3 {
+    height: 120px;
+    width: 120px;
+    flex-shrink: 0;
+    position: relative;
+    overflow: clip;
+    left: 200px;
+    bottom: 30px;
+
+}
+
+.semicircle3>div {
+    height: 120px;
+    width: 120px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #27384C;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+footer {
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 60px;
+}
